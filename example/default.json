@@ -1,0 +1,148 @@
+{
+  "list": [
+    {
+      "name": "访客姓名",
+      "type": "input",
+      "options": {
+        "width": "100%",
+        "defaultValue": "",
+        "placeholder": "",
+        "maxlength": null,
+        "prefix": "",
+        "suffix": "",
+        "prepend": "",
+        "append": "",
+        "disabled": false,
+        "clearable": false,
+        "readonly": false,
+        "showinlist": false,
+        "showinapplist": false,
+        "dataBind": true,
+        "hidden": false,
+        "showinsearch": false,
+        "isAbstract": false,
+        "prohibitDelete": true,
+        "rules": {
+          "trigger": "blur",
+          "enum": "",
+          "message": "请填写姓名",
+          "pattern": "",
+          "required": true,
+          "type": "any"
+        }
+      },
+      "key": "5b025df59c8047e189a8b641e8e7fe65",
+      "model": "visitorName",
+      "rules": []
+    },
+    {
+      "name": "访客手机号",
+      "type": "input",
+      "options": {
+        "width": "100%",
+        "defaultValue": "",
+        "placeholder": "",
+        "maxlength": null,
+        "prefix": "",
+        "suffix": "",
+        "prepend": "",
+        "append": "",
+        "disabled": false,
+        "clearable": false,
+        "readonly": false,
+        "showinlist": false,
+        "showinapplist": false,
+        "dataBind": true,
+        "hidden": false,
+        "showinsearch": false,
+        "isAbstract": false,
+        "prohibitDelete": true,
+        "rules": {
+          "trigger": "blur",
+          "enum": "",
+          "message": "请填写正确的手机号",
+          "pattern": "^(1)\\d{10}$",
+          "required": true,
+          "type": "any"
+        }
+      },
+      "key": "562e7491a33a4f92939b6866a86524e0",
+      "model": "visitorMobile",
+      "rules": []
+    },
+    {
+      "name": "来访开始时间",
+      "type": "date",
+      "options": {
+        "type": "datetime",
+        "defaultValue": "",
+        "width": "100%",
+        "placeholder": "请选择时间",
+        "format": "YYYY-MM-DD hh:mm",
+        "valueFormat": "YYYY-MM-DD hh:mm",
+        "readonly": false,
+        "editable": true,
+        "clearable": true,
+        "disabled": false,
+        "dataBind": true,
+        "hidden": false,
+        "showinlist": false,
+        "showinapplist": false,
+        "showinsearch": false,
+        "isAbstract": false,
+        "prohibitDelete": true,
+        "rules": {
+          "trigger": "blur",
+          "enum": "",
+          "message": "",
+          "pattern": "",
+          "required": true,
+          "type": "any"
+        }
+      },
+      "key": "b6563e913a534c498276c47467a70dd4",
+      "model": "visitingDateStart",
+      "rules": []
+    },
+    {
+      "name": "来访结束时间",
+      "type": "date",
+      "options": {
+        "type": "datetime",
+        "defaultValue": "",
+        "width": "100%",
+        "placeholder": "请选择时间",
+        "format": "YYYY-MM-DD hh:mm",
+        "valueFormat": "YYYY-MM-DD hh:mm",
+        "readonly": false,
+        "editable": true,
+        "clearable": true,
+        "disabled": false,
+        "dataBind": true,
+        "hidden": false,
+        "showinlist": false,
+        "showinapplist": false,
+        "showinsearch": false,
+        "isAbstract": false,
+        "prohibitDelete": true,
+        "rules": {
+          "trigger": "blur",
+          "enum": "",
+          "message": "",
+          "pattern": "",
+          "required": true,
+          "type": "any"
+        }
+      },
+      "key": "b6563e913a534c498276c47467a70333",
+      "model": "visitingDateEnd",
+      "rules": []
+    }
+  ],
+  "config": {
+    "size": "default",
+    "hideRequiredAsterisk": false,
+    "labelWidth": 990,
+    "labelPosition": "top"
+  }
+}
